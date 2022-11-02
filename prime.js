@@ -12,11 +12,10 @@ function checkprime(number){
     	else{
         	return false;
     	}
-
 }
 
-let ans=checkprime(13);
-if(ans==true){
+let answer=checkprime(13);
+if(answer==true){
 	console.log("Prime");
 }
 else{
